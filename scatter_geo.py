@@ -6,6 +6,8 @@ import plotly.graph_objects as go
 # Crear la aplicación de Dash
 app = dash.Dash(__name__)
 
+server = app.server
+
 # Datos de ejemplo
 data = {
     'locations': ['Lima', 'Cusco', 'Arequipa'],
